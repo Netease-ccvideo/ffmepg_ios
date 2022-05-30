@@ -1,3 +1,6 @@
-# vmaf_resource
+# cc-ios-ffmpeg
 
-This repository contains test videos and other resources that are too large to be hosted in the [native repository of the VMAF project](https://github.com/Netflix/vmaf).
+### Build iOS SSL版本
+```
+python ./script/build_ffmpeg.py -branch master -openssl true -rebuild_ssl true -mode sdk  -version_ssl 1_1_1d
+```
