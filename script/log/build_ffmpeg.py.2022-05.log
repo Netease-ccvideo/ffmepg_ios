@@ -1,0 +1,25 @@
+2022-05-19 11:12:32,630	DEBUG	args Namespace(branch='master', mode='sdk', openssl='true', rebuid_ssl='true', version_ssl='1_1_1d')	-	./script/build_ffmpeg.py:94	<module>
+2022-05-19 11:12:32,630	DEBUG	current branch is master openssl is 1 mode is sdk                          rebuid ssl is 1 ssl version is 1_1_1d	-	./script/build_ffmpeg.py:102	<module>
+2022-05-19 11:12:32,630	DEBUG	----- clean outputDir /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/release_sdk ----	-	./script/build_ffmpeg.py:109	<module>
+2022-05-19 11:12:32,631	DEBUG	------IJK_OPENSSL_COMMIT=OpenSSL_1_1_1d
+------	-	./script/build_ffmpeg.py:77	pull_openssl
+2022-05-19 11:12:32,631	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg && sh init-ios-openssl.sh 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:14:12,363	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios && sh /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/compile-openssl.sh clean && sh /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/compile-ffmpeg.sh sdk clean 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:14:12,535	DEBUG	------clean success------	-	./script/build_ffmpeg.py:53	build_library
+2022-05-19 11:14:12,535	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios && sh /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/compile-openssl.sh all && sh /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/compile-ffmpeg.sh sdk all 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:25:53,745	DEBUG	------build success------	-	./script/build_ffmpeg.py:55	build_library
+2022-05-19 11:25:53,746	DEBUG	------begin zip------	-	./script/build_ffmpeg.py:57	build_library
+2022-05-19 11:25:53,746	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/build/universal && zip -r -q ffmpeg_3.1_openssl-1_1_1d-master-sdk-fatal: not a git repository (or any of the parent directories): .git.zip include/ lib/ 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:25:53,753	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/build/universal && mv ffmpeg_3.1_openssl-1_1_1d-master-sdk-fatal: not a git repository (or any of the parent directories): .git.zip /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/release_sdk/ffmpeg_3.1_openssl-1_1_1d-master-sdk-fatal: not a git repository (or any of the parent directories): .git.zip 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:25:53,761	DEBUG	------end zip------	-	./script/build_ffmpeg.py:63	build_library
+2022-05-19 11:40:17,121	DEBUG	args Namespace(branch='master', mode='sdk', openssl='true', rebuid_ssl='false', version_ssl='1_1_1d')	-	./script/build_ffmpeg.py:94	<module>
+2022-05-19 11:40:17,121	DEBUG	current branch is master openssl is 1 mode is sdk                          rebuid ssl is 0 ssl version is 1_1_1d	-	./script/build_ffmpeg.py:102	<module>
+2022-05-19 11:40:17,121	DEBUG	----- clean outputDir /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/release_sdk ----	-	./script/build_ffmpeg.py:109	<module>
+2022-05-19 11:40:17,170	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios && sh /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/compile-ffmpeg.sh sdk clean 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:40:17,227	DEBUG	------clean success------	-	./script/build_ffmpeg.py:53	build_library
+2022-05-19 11:40:17,227	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios && sh /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/compile-openssl.sh all && sh /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/compile-ffmpeg.sh sdk all 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:40:50,128	DEBUG	------build success------	-	./script/build_ffmpeg.py:55	build_library
+2022-05-19 11:40:50,128	DEBUG	------begin zip------	-	./script/build_ffmpeg.py:57	build_library
+2022-05-19 11:40:50,128	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/build/universal && zip -r -q ffmpeg_3.1_openssl-1_1_1d-master-sdk-fatal: not a git repository (or any of the parent directories): .git.zip include/ lib/ 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:40:50,135	DEBUG	cmdstr cd /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/build/universal && mv ffmpeg_3.1_openssl-1_1_1d-master-sdk-fatal: not a git repository (or any of the parent directories): .git.zip /Users/cc/Documents/3rdproject/ios_player_ffmpeg/ios/release_sdk/ffmpeg_3.1_openssl-1_1_1d-master-sdk-fatal: not a git repository (or any of the parent directories): .git.zip 	-	./script/build_ffmpeg.py:11	exe_cmd
+2022-05-19 11:40:50,142	DEBUG	------end zip------	-	./script/build_ffmpeg.py:63	build_library
